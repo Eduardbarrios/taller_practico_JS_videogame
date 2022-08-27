@@ -91,3 +91,20 @@ html{
     top:50vh;
     font-size: 2rem;
 }
+@media(max-width: 500px){
+  .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+
+    font-size: 1.5rem;
+    color: white;
+
+ }
+  .arrows-container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+}
