@@ -93,7 +93,7 @@ html{
 }
 @media(max-width: 500px){
   .info{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-evenly;
     width: 80%;
