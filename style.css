@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.game-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #00006e;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    max-width: 470px;
+
+
+    font-size: 1.5rem;
+    color: white;
+
+}
+.info .lives{
+}
+.canvas-game{
+    margin-top: 1px;
+    margin-bottom: 30px;
+
+    background-color:#b60000 ;
+    border-radius: 10px;
+    border: solid 3px #2ffd21;
+}
+.arrows-container{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.arrows{
+    position: absolute;
+    font-size: 3rem;
+    color: aqua;
+
+    cursor: pointer;
+}
+.arrows.up{
+    left: calc(50% - 15px);
+}
+.arrows.left{
+    top: calc(50% - 15px);
+}
+.arrows.right{
+    top: calc(50% - 15px);
+    right: 0px;
+}
+.arrows.down{
+    left: calc(50% - 15px);
+    bottom: 0px;
+}
+
+
+.start{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    padding-top: 35vh;
+
+    font-size: 8rem;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    opacity: 0.5;
+    
+    cursor: pointer;
+}
+.start .space{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:50vh;
+    font-size: 2rem;
+}

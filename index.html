@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64b77ddd39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>My VideoGame</title>
+</head>
+<body>
+    
+    <div class="game-container">
+        <div class="info">
+            <p>lives:<span class="lives"></span></p>
+            <section class="chronometer_section">
+                <div class="contador">Time:
+                    <span id="minutes_acount">00</span><span>:</span><span id="seconds_acount">00</span><span>:</span><span id="mili_acount">00</span>
+                </div>
+            </section>
+            <p>Time record: <span class="record"></span></p>
+        </div>
+        <canvas id="canvas-game" class="canvas-game" width="" height=""></canvas>
+
+        <div class="arrows-container">
+            <i class="fa-solid fa-circle-up arrows up"></i>
+            <i class="fa-solid fa-circle-left arrows left "></i>
+            <i class="fa-solid fa-circle-right arrows right"></i>
+            <i class="fa-solid fa-circle-down arrows down"></i>
+        </div>        
+    </div>
+    <script type="text/javascript" src="./maps.js"></script>
+    <script type="text/javascript" src="./game.js"></script>
+</body>
+</html>
